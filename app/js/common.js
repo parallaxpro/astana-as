@@ -272,8 +272,8 @@ function brick_building_calc(brick_metr) {
 function showCalcResult(result) {
 
 	$('.brick_result').fadeIn();
-	$('.brick_result').text('Итого: '+ result.toLocaleString() +' кирпичей');
+	$('.brick_result').text('Итого: '+ result.toLocaleString() +' цемента');
 
 
-	console.log('Всего кирпичей:', result);
+	console.log('Всего цемента:', result);
 }
